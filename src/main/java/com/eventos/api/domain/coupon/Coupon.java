@@ -17,6 +17,7 @@ import java.util.UUID;
 
 public class Coupon {
 
+    @Id
     @GeneratedValue
     private UUID id;
 
