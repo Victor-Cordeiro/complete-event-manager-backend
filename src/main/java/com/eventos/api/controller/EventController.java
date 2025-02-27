@@ -1,7 +1,7 @@
 package com.eventos.api.controller;
 
-
 import com.eventos.api.domain.event.Event;
+import com.eventos.api.domain.event.EventDetailsDTO;
 import com.eventos.api.domain.event.EventRequestDTO;
 import com.eventos.api.domain.event.EventResponseDTO;
 import com.eventos.api.service.EventService;

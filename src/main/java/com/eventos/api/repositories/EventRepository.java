@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
-public interface EventRepository extends JpaRepository<Event, UUID> {
+public interface  EventRepository extends JpaRepository<Event, UUID> {
 
     @Query("SELECT e.id AS id, e.title AS title, e.description AS description, e.date AS date, e.imgUrl AS imgUrl, e.eventUrl AS eventUrl, e.remote AS remote, a.city AS city, a.uf AS uf " +
             "FROM Event e LEFT JOIN Address a ON e.id = a.event.id " +
